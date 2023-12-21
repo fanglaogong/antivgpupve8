@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /root/antivgpupve8
+cd /root/antivpv8
 dpkg -i pve-qemu-kvm_8.1.2-4_amd64_anti_detection20231126.deb
 dpkg -l|grep kvm
 
@@ -22,4 +22,4 @@ done
 
 echo "所有虚拟机克隆完成！"
 
-rm -r /root/antivgpupve8
+rm -r /root/antivpv8
