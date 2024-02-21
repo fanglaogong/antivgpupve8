@@ -1,8 +1,8 @@
 #!/bin/bash
 
 cd /root/antivpv8
-dpkg -i pve-qemu-kvm_8.1.2-4_amd64_anti_detection20231126.deb
-dpkg -l|grep kvm
+# dpkg -i pve-qemu-kvm_8.1.2-4_amd64_anti_detection20231126.deb
+# dpkg -l|grep kvm
 
 
 # 要克隆的虚拟机的编号
