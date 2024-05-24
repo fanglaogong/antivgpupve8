@@ -10,7 +10,7 @@ src_vm=101
 
 # 新虚拟机的编号
 start_vm=102
-end_vm=104
+end_vm=108
 
 # 逐个克隆虚拟机
 for ((vm=$start_vm; vm<=$end_vm; vm++))
